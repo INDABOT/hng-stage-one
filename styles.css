@@ -65,13 +65,15 @@ li{
 a {
   display: block;
   margin: 10px 0;
-  color: rgb(254, 56, 41);
+  color: rgb(240, 235, 235);
   text-decoration: none;
+  
 }
 
 a:hover {
   text-decoration: underline;
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 .linkArea {
