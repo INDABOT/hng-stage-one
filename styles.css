@@ -91,15 +91,18 @@ a:hover {
   main {
     max-width: 100vw;
   }
+  .timeDate p{
+   margin-left: 0.5rem;
+  }
   .goals {
     display: flex;
     flex-direction: column;
   }
-  h2 {
-  }
+ 
   .linkArea {
     gap: 1rem;
   }
+  
   a {
     font-size: small;
   }
