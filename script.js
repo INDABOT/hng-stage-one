@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateTimeAndDay() {
         const now = new Date();
-        utcTimeElement.textContent = now.toUTCString().split(' ')[4];
+        utcTimeElement.textContent = now.toISOString().split('T')[1].split('.')[0];
         dayOfWeekElement.textContent = now.toLocaleString('en-us', { weekday: 'long' });
     }
 
